@@ -1,0 +1,57 @@
+{
+  "userID": "testID",
+  "userName": "TEST",
+  "userPassword": "123",
+  "orgWorkList": [
+    {
+      "orgName" : "TESTOrg",
+      "work": [
+        {
+          "workID": "TESTWORKID",
+          "workContent" : "TEST work",
+          "state" : "TO-DO"
+        },
+        {
+          "workID": "TESTWORKID",
+          "workContent" : "TEST work",
+          "state" : "TO-DO"
+        },
+        {
+          "workID": "TESTWORKID",
+          "workContent" : "TEST work",
+          "state" : "TO-DO"
+        },
+        {
+          "workID": "TESTWORKID",
+          "workContent" : "TEST work",
+          "state" : "TO-DO"
+        }
+      ]
+    },
+    {
+      "orgName" : "TESTOrg",
+      "work": [
+        {
+          "workID": "TESTWORKID",
+          "workContent" : "TEST work",
+          "state" : "TO-DO"
+        },
+        {
+          "workID": "TESTWORKID",
+          "workContent" : "TEST work",
+          "state" : "TO-DO"
+        },
+        {
+          "workID": "TESTWORKID",
+          "workContent" : "TEST work",
+          "state" : "TO-DO"
+        },
+        {
+          "workID": "TESTWORKID",
+          "workContent" : "TEST work",
+          "state" : "TO-DO"
+        }
+      ]
+    }
+  ] 
+}

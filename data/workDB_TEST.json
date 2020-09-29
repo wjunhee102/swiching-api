@@ -1,0 +1,45 @@
+{
+  "workID": "WORKID",
+  "state": "2",
+  "title": "TEST Work",
+  "content": [
+    {
+      "file" : "file?"
+    }
+  ],
+  "coments": [
+    {
+      "userID": "test1",
+      "contents": "이거 수정이 필요합니다."
+    }
+  ],
+  "userList": [
+    {
+      "userID": "Test1",
+      "rank": "admin"
+    },
+    {
+      "userID": "Test2",
+      "rank": "admin"
+    },
+    {
+      "userID": "Test3",
+      "rank": "normal"
+    }
+  ],
+  "managerID": "Test2",
+  "logList": [
+    {
+      "date": "2020-01-20",
+      "time": "14:20",
+      "userID": "Test1",
+      "contents": "manager changed to Test2"
+    },
+    {
+      "date": "2020-01-22",
+      "time": "14:20",
+      "userID": "Test1",
+      "contents": "text changed"
+    }
+  ]
+}
