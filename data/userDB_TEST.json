@@ -2,6 +2,7 @@
   "userID": "testID",
   "userName": "TEST",
   "userPassword": "123",
+  "joined": "2020-10-01",
   "orgWorkList": [
     {
       "orgName" : "TESTOrg",
