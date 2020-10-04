@@ -1,16 +1,14 @@
 # Switching API
----
 
 ## App Structure
---
 ```
 ```
+---
+
 
 ## Commit Message Convention
----
 
 ### 1. Commit Message Structure
----
 ```
 type
 
@@ -19,7 +17,6 @@ body
 
 
 ### 2. Commit Type
----
 + feat: 새로운 기능 추가
 + fix: 버그 수정
 + docs: 문서 수정
