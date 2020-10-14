@@ -1,0 +1,17 @@
+{
+  "userList": [
+    {
+      "id": "a123",
+      "email": "test@test.test",
+      "name": "TEST",
+      "password": "12345",
+      "joined": "2020-10-14T09:50:13.421Z",
+      "orgList": [
+        {
+          "id": "sadasd"
+        },
+        "asdasdasd"
+      ]
+    }
+  ]
+}

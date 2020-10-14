@@ -1,0 +1,33 @@
+{
+  "workList": [
+    {
+      "workID": "avs",
+      "orgName": "test",
+      "workTitle": "HTML 수정하기",
+      "content": "<h1>123</h1>",
+      "data": "2020-10-14T09:50:13.421Z",
+      "author": {
+        "id": "abas",
+        "email": "test@test.test",
+        "name": "test"
+      },
+      "member": [
+        {
+          "id": "abas",
+          "email": "test@test.test",
+          "name": "test"
+        },
+        {
+          "id": "abas",
+          "email": "test@test.test",
+          "name": "test"
+        },
+        {
+          "id": "abas",
+          "email": "test@test.test",
+          "name": "test"
+        }
+      ]
+    }
+  ]
+}

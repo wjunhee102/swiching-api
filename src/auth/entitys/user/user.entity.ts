@@ -1,11 +1,4 @@
-/**
- * work list type
- */
-export class work {
-  workID: string;
-  orgName: string;
-  workTitle: string;
-}
+import { WorkInfo } from "src/work/entitys/work.entity";
 
 /**
  * org list type
@@ -19,18 +12,27 @@ export class org {
  * user 정보 type
  */
 export class User {
-  userAuth: UserAuth;
-  workList: [work];
-  orgList: [org];
+  userAuth: UserAuthInfo;
+  workList: WorkInfo[];
+  orgList: org[];
 }
 
 /**
  * user 인증 type
  */
-export class UserAuth {
-  userID: string;
-  userEmail: string;
-  userName: string;
-  userPassword: string;
+export class UserAuthInfo {
+  id: string;
+  email: string;
+  name: string;
+  password: string;
   joined: string;
+}
+
+/**
+ * 
+ */
+export class UserInfo {
+  id: string;
+  email: string;
+  name: string;
 }
