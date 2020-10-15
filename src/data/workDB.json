@@ -2,7 +2,10 @@
   "workList": [
     {
       "workID": "avs",
-      "orgName": "test",
+      "group": {
+        "id": "test1",
+        "name": "test"
+      },
       "workTitle": "HTML 수정하기",
       "content": "<h1>123</h1>",
       "data": "2020-10-14T09:50:13.421Z",

@@ -1,16 +1,185 @@
 {
   "userList": [
     {
-      "id": "a123",
+      "id": "a124",
       "email": "test@test.test",
       "name": "TEST",
       "password": "12345",
       "joined": "2020-10-14T09:50:13.421Z",
-      "orgList": [
+      "groupList": [
         {
-          "id": "sadasd"
-        },
-        "asdasdasd"
+          "id": "sadasd",
+          "groupName": "TESTG"
+        }
+      ]
+    },
+    {
+      "id": "a122",
+      "email": "test@test.test",
+      "name": "TEST",
+      "password": "12345",
+      "joined": "2020-10-14T09:50:13.421Z",
+      "groupList": [
+        {
+          "id": "sadasd",
+          "groupName": "TESTG"
+        }
+      ]
+    },
+    {
+      "id": "a122",
+      "email": "test@test.test",
+      "name": "TEST",
+      "password": "12345",
+      "joined": "2020-10-14T09:50:13.421Z",
+      "groupList": [
+        {
+          "id": "sadasd",
+          "groupName": "TESTG"
+        }
+      ]
+    },
+    {
+      "id": "a122",
+      "email": "test@test.test",
+      "name": "TEST",
+      "password": "12345",
+      "joined": "2020-10-14T09:50:13.421Z",
+      "groupList": [
+        {
+          "id": "sadasd",
+          "groupName": "TESTG"
+        }
+      ]
+    },
+    {
+      "id": "a122",
+      "email": "test@test.test",
+      "name": "TEST",
+      "password": "12345",
+      "joined": "2020-10-14T09:50:13.421Z",
+      "groupList": [
+        {
+          "id": "sadasd",
+          "groupName": "TESTG"
+        }
+      ]
+    },
+    {
+      "id": "a122",
+      "email": "test@test.test",
+      "name": "TEST",
+      "password": "12345",
+      "joined": "2020-10-14T09:50:13.421Z",
+      "groupList": [
+        {
+          "id": "sadasd",
+          "groupName": "TESTG"
+        }
+      ]
+    },
+    {
+      "id": "a122",
+      "email": "test@test.test",
+      "name": "TEST",
+      "password": "12345",
+      "joined": "2020-10-14T09:50:13.421Z",
+      "groupList": [
+        {
+          "id": "sadasd",
+          "groupName": "TESTG"
+        }
+      ]
+    },
+    {
+      "id": "a122",
+      "email": "test@test.test",
+      "name": "TEST",
+      "password": "12345",
+      "joined": "2020-10-14T09:50:13.421Z",
+      "groupList": [
+        {
+          "id": "sadasd",
+          "groupName": "TESTG"
+        }
+      ]
+    },
+    {
+      "id": "a122",
+      "email": "test@test.test",
+      "name": "TEST",
+      "password": "12345",
+      "joined": "2020-10-14T09:50:13.421Z",
+      "groupList": [
+        {
+          "id": "sadasd",
+          "groupName": "TESTG"
+        }
+      ]
+    },
+    {
+      "id": "a122",
+      "email": "test@test.test",
+      "name": "TEST",
+      "password": "12345",
+      "joined": "2020-10-14T09:50:13.421Z",
+      "groupList": [
+        {
+          "id": "sadasd",
+          "groupName": "TESTG"
+        }
+      ]
+    },
+    {
+      "id": "a122",
+      "email": "test@test.test",
+      "name": "TEST",
+      "password": "12345",
+      "joined": "2020-10-14T09:50:13.421Z",
+      "groupList": [
+        {
+          "id": "sadasd",
+          "groupName": "TESTG"
+        }
+      ]
+    },
+    {
+      "id": "a122",
+      "email": "test@test.test",
+      "name": "TEST",
+      "password": "12345",
+      "joined": "2020-10-14T09:50:13.421Z",
+      "groupList": [
+        {
+          "id": "sadasd",
+          "groupName": "TESTG"
+        }
+      ]
+    },
+    {
+      "id": "a122",
+      "email": "test@test.test",
+      "name": "TEST",
+      "password": "12345",
+      "joined": "2020-10-14T09:50:13.421Z",
+      "groupList": [
+        {
+          "id": "sadasd",
+          "groupName": "TESTG"
+        }
+      ]
+    },
+    {
+      "id": "a122",
+      "email": "test@test.test",
+      "name": "TEST",
+      "password": "12345",
+      "joined": "2020-10-14T09:50:13.421Z",
+      "groupList": [
+        {
+          "id": "sadasd",
+          "groupName": "TESTG"
+        }
       ]
     }
   ]

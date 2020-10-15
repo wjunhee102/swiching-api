@@ -1,58 +1,62 @@
 {
-  "userID": "testID",
-  "userName": "TEST",
-  "userPassword": "123",
-  "joined": "2020-10-01",
-  "orgWorkList": [
+  "userList":[
     {
-      "orgName" : "TESTOrg",
-      "work": [
+      "userID": "testID",
+      "userName": "TEST",
+      "userPassword": "123",
+      "joined": "2020-10-01",
+      "orgWorkList": [
         {
-          "workID": "TESTWORKID",
-          "workContent" : "TEST work",
-          "state" : "TO-DO"
+          "orgName" : "TESTOrg",
+          "work": [
+            {
+              "workID": "TESTWORKID",
+              "workContent" : "TEST work",
+              "state" : "TO-DO"
+            },
+            {
+              "workID": "TESTWORKID",
+              "workContent" : "TEST work",
+              "state" : "TO-DO"
+            },
+            {
+              "workID": "TESTWORKID",
+              "workContent" : "TEST work",
+              "state" : "TO-DO"
+            },
+            {
+              "workID": "TESTWORKID",
+              "workContent" : "TEST work",
+              "state" : "TO-DO"
+            }
+          ]
         },
         {
-          "workID": "TESTWORKID",
-          "workContent" : "TEST work",
-          "state" : "TO-DO"
-        },
-        {
-          "workID": "TESTWORKID",
-          "workContent" : "TEST work",
-          "state" : "TO-DO"
-        },
-        {
-          "workID": "TESTWORKID",
-          "workContent" : "TEST work",
-          "state" : "TO-DO"
-        }
-      ]
-    },
-    {
-      "orgName" : "TESTOrg",
-      "work": [
-        {
-          "workID": "TESTWORKID",
-          "workContent" : "TEST work",
-          "state" : "TO-DO"
-        },
-        {
-          "workID": "TESTWORKID",
-          "workContent" : "TEST work",
-          "state" : "TO-DO"
-        },
-        {
-          "workID": "TESTWORKID",
-          "workContent" : "TEST work",
-          "state" : "TO-DO"
-        },
-        {
-          "workID": "TESTWORKID",
-          "workContent" : "TEST work",
-          "state" : "TO-DO"
+          "orgName" : "TESTOrg",
+          "work": [
+            {
+              "workID": "TESTWORKID",
+              "workContent" : "TEST work",
+              "state" : "TO-DO"
+            },
+            {
+              "workID": "TESTWORKID",
+              "workContent" : "TEST work",
+              "state" : "TO-DO"
+            },
+            {
+              "workID": "TESTWORKID",
+              "workContent" : "TEST work",
+              "state" : "TO-DO"
+            },
+            {
+              "workID": "TESTWORKID",
+              "workContent" : "TEST work",
+              "state" : "TO-DO"
+            }
+          ]
         }
       ]
     }
-  ] 
+  ]
 }
