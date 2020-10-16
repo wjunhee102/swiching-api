@@ -11,8 +11,7 @@ export class org {
 /**
  * user 정보 type
  */
-export class User {
-  userAuth: UserAuthInfo;
+export class UserWorkInfo {
   workList: WorkInfo[];
   orgList: org[];
 }
@@ -21,18 +20,19 @@ export class User {
  * user 인증 type
  */
 export class UserAuthInfo {
-  id: string;
-  email: string;
-  name: string;
   password: string;
   joined: string;
 }
 
-/**
- * 
- */
 export class UserInfo {
   id: string;
   email: string;
   name: string;
 }
+
+
+export type User = UserInfo & UserAuthInfo;
+/**
+ * 
+ */
+

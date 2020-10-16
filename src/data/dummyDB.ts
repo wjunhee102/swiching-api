@@ -1,17 +1,15 @@
-import { User, UserInfo } from'../auth/entitys/user/user.entity';
+import { UserAuthInfo, UserInfo } from'../auth/entitys/user/user.entity';
 import { WorkInfo } from '../work/entitys/work.entity';
+/**
+ * TEST user info database
+ */
 import { userList } from './userDB.json';
 import { writeFile } from 'fs';
 
 /**
  * user info entity
  */
-type userEntity = {
-  id: string;
-  email: string;
-  name: string;
-  password: string;
-  joined: string;
+type userEntity = UserInfo & UserAuthInfo & {
   groupList: group[];
 }
 
@@ -20,18 +18,15 @@ type group = {
   groupName: string;
 }
 
-class DataProps {
-  userList: User[];
-  workList: WorkInfo[];
-}
+// class DataProps {
+//   userList: User[];
+//   workList: WorkInfo[];
+// }
 
-let data:DataProps = {
-  userList: [],
-  workList: []
-};
-
-let userData = userList
-
+// let data:DataProps = {
+//   userList: [],
+//   workList: []
+// };
 
 export const workDB: WorkInfo[] = []; 
 export const userInfoDB: UserInfo[] = [];
@@ -40,6 +35,9 @@ export const userInfoDB: UserInfo[] = [];
  * 유저 work list
  * @param userId 
  */
+
+let userData = userList;
+
 function userWorkInfoDB(userId: string) {
   userData.push({
     id: "a122",
@@ -60,8 +58,7 @@ function userWorkInfoDB(userId: string) {
   updateUserDataBase(userData);
 
   console.log("2:", userData);
-  data = require('./userDB.json');
-  return data.userList;
+  return userData;
 }
 
 /**
