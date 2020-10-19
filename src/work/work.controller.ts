@@ -16,9 +16,9 @@ export class WorkController {
     return "aaa"
   }
 
-  @Get("test")
-  getTest() {
-    return this.workService.getTestJsonFile();
-  }
+  // @Get("test")
+  // getTest() {
+  //   return this.workService.getTestJsonFile();
+  // }
   
 }

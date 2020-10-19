@@ -1,5 +1,6 @@
-import { UserInfo } from "./user.entity";
+// import { UserInfo } from "./user.entity";
 
+type UserInfo = any;
 
 export class Org {
   orgID: string;

@@ -1,8 +1,9 @@
-import { UserInfo } from "src/auth/entitys/user/user.entity";
+// import { UserInfo } from "src/auth/entitys/user/user.entity";
 
 /**
  * work info type
  */
+type UserInfo = any;
 export class WorkInfo {
   workID: string;
   orgName: string;

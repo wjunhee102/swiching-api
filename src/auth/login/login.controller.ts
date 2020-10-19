@@ -7,6 +7,16 @@ export class LoginController {
 
   constructor(private readonly loginService: LoginService) {}
 
+
+  @Get()
+  getUserAllInfo():Promise<User[]> {
+    return this.loginService.findAll();
+  }
+
+  @Get(":id")
+  getUserInfo(@Param("id") userId: string):Promise<User> {
+    return this.loginService.findOne(userId);
+  }
   // @Get()
   // getUserAllInfo():User[] {
   //   return this.loginService.getUserInfoAll();

@@ -1,4 +1,7 @@
-import { Injectable, NotFoundException } from '@nestjs/common';
+import { Injectable } from '@nestjs/common';
+import { InjectRepository } from '@nestjs/typeorm';
+import { Repository } from 'typeorm';
+import { User } from '../entitys/user/user.entity';
 // import { User, UserAuth } from '../entitys/user/user.entity';
 
 // let testUserAuth: UserAuth = {
@@ -53,11 +56,27 @@ import { Injectable, NotFoundException } from '@nestjs/common';
 export class LoginService {
   // private users: User[] = [];
 
-  constructor() {
+  constructor(
+    @InjectRepository(User)
+    private userRepository: Repository<User>
+  ) {
     /**
      * test data
      */
     // this.users = [testUserInfo];
+    
+  }
+
+  findAll():Promise<User[]> {
+    return this.userRepository.find();
+  }
+
+  findOne(id: string): Promise<User> {
+    return this.userRepository.findOne(id);
+  }
+
+  async remove(id: string): Promise<void> {
+    await this.userRepository.delete(id);
   }
 
   // getUserInfoAll():User[] {

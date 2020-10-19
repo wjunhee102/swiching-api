@@ -3,9 +3,9 @@ import { User } from 'src/auth/entitys/user/user.entity';
 // import { WorkInfo } from './entitys/work.entity';
 
 import dataBase from '../data/dummyDB';
-import { WorkInfo } from './entitys/work.entity';
+// import { WorkInfo } from './entitys/work.entity';
 
-type RESULT = | 'sucess' | 'error';
+// type RESULT = | 'sucess' | 'error';
 
 @Injectable()
 export class WorkService {
@@ -20,9 +20,9 @@ export class WorkService {
 
   constructor() {}
 
-  getTestJsonFile():any{
-    return dataBase("sdda");
-  }
+  // getTestJsonFile():any{
+  //   return dataBase("sdda");
+  // }
   // postUserWorkListSimple(userId: string):WorkInfo[] {
   //   return dataBase.user.filter(user => user.userAuth.info.id === userId)[0].workList;
   // }
