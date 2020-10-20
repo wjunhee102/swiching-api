@@ -17,6 +17,11 @@ export class LoginController {
   getUserInfo(@Param("id") userId: string):Promise<User> {
     return this.loginService.findOne(userId);
   }
+
+  @Post()
+  addUserInfo(@Body() userInfo):Promise<string> {
+    return this.loginService.save(userInfo);
+  }
   // @Get()
   // getUserAllInfo():User[] {
   //   return this.loginService.getUserInfoAll();

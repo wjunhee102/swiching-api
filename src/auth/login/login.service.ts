@@ -2,6 +2,18 @@ import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import { User } from '../entitys/user/user.entity';
+import { v4 as uuidv4, v4 } from 'uuid'; 
+
+interface nonIdUser {
+  password: string;
+  email: string;
+  firstName: string;
+  lastName: string;
+  joinedDate: Date;
+  updatedDate: Date;
+  groupListId: string;
+  isActive: boolean;
+}
 // import { User, UserAuth } from '../entitys/user/user.entity';
 
 // let testUserAuth: UserAuth = {
@@ -77,6 +89,14 @@ export class LoginService {
 
   async remove(id: string): Promise<void> {
     await this.userRepository.delete(id);
+  }
+
+  async save(userRow: nonIdUser): Promise<string> {
+    let USER:User = Object.assign({}, userRow, {
+      userID: uuidv4()
+    });
+    await this.userRepository.save(USER);
+    return "OK"
   }
 
   // getUserInfoAll():User[] {
