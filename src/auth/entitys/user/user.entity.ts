@@ -1,6 +1,6 @@
 // import { WorkInfo } from "src/work/entitys/work.entity";
 
-import { Column, Entity, PrimaryGeneratedColumn } from "typeorm";
+import { Column, Entity, PrimaryColumn } from "typeorm";
 
 // /**
 //  * org list type
@@ -40,8 +40,8 @@ import { Column, Entity, PrimaryGeneratedColumn } from "typeorm";
 
 @Entity()
 export class User {
-  @PrimaryGeneratedColumn()
-  userID: string;
+  @PrimaryColumn()
+  id: string;
 
   @Column()
   password: string;
@@ -64,6 +64,6 @@ export class User {
   @Column()
   groupListId: string;
 
-  @Column({ default: true})
+  @Column()
   isActive: boolean;
 }

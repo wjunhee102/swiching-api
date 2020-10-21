@@ -93,7 +93,7 @@ export class LoginService {
 
   async save(userRow: nonIdUser): Promise<string> {
     let USER:User = Object.assign({}, userRow, {
-      userID: uuidv4()
+      id: uuidv4()
     });
     await this.userRepository.save(USER);
     return "OK"

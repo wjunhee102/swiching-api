@@ -1,5 +1,5 @@
 import { EntitySchema } from "typeorm";
-import { User } from "./user.entity";
+import { User } from "../entitys/user.entity";
 
 
 export const UserSchema = new EntitySchema<User>({
@@ -13,20 +13,23 @@ export const UserSchema = new EntitySchema<User>({
     email: {
       type: String
     },
+    password: {
+      type: String
+    },
     firstName: {
       type: String
     },
     lastName: {
       type: String
     },
-    joinedDate: {
+    fullName: {
+      type: String
+    },
+    createdDate: {
       type: Date
     },
     updatedDate: {
       type: Date
-    },
-    groupListId: {
-      type: String
     },
     isActive: {
       type: Boolean,

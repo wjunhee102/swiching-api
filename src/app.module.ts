@@ -4,13 +4,17 @@ import { Connection } from 'typeorm';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { AuthModule } from './auth/auth.module';
-import { User } from './auth/entitys/user/user.entity';
 import { WorkModule } from './work/work.module';
+import { UserModule } from './user/user.module';
+import { TaskModule } from './task/task.module';
+import { UserSchema } from './auth/entitys/user/user.shema';
 
 @Module({
   imports: [
     AuthModule, 
-    WorkModule, 
+    WorkModule,  
+    UserModule, 
+    TaskModule,
     TypeOrmModule.forRoot({
       type: 'mysql',
       host: 'localhost',
@@ -18,9 +22,9 @@ import { WorkModule } from './work/work.module';
       username: 'root',
       password: 'ghkdwnsgml1',
       database: 'test',
-      entities: [User],
+      entities: [UserSchema],
       synchronize: true
-    })
+    }),
   ],
   controllers: [AppController],
   providers: [AppService],
